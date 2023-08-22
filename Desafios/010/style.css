@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(materiais/fontes/idroid.otf) format('opentype');
+}
+
+header {
+    background-image: linear-gradient(180deg, #8ae487 0%, #295527 100%);
+    padding-bottom: 10px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
+    padding-top: 30px;
+}
+
+header > h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 1em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.466);
+    padding-bottom: 20px;
+    margin: auto;
+    width: 400px;
+                
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+nav > a:hover {
+    background-color: #8ae487;
+    border-radius: 5px;
+}
+
+main {
+    background-color: rgb(218, 250, 218);
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.473);
+    padding-top: 5px;
+}
+
+main h1 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    color: #295527;
+    margin: 10px;
+    padding: 10px;
+}
+
+main h2 {
+    color: #295527;
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 5px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+main img {
+    width: 100%;
+}
+
+article > h2 {
+    background-image: linear-gradient(90deg, rgba(172, 241, 172, 0.61), white);
+}
+
+#video {
+    background-color: #295527;
+}
+
+#video > div{
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+aside {
+    margin-top: 20px;
+    background-color: #8ae487;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+aside > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    background-color: #295527;
+    margin: -10px -10px 0px -10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside > ul {
+    columns: 2;
+}
+
+
+footer {
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #295527;
+    color: white;
+}
