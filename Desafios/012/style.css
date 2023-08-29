@@ -1,0 +1,8 @@
+@font-face {
+font-family: "WorkSans";
+    src: url("012/static/WorkSans-SemiBold.ttf") format("ttf");
+}
+
+p {
+    font-family: "WorkSans", sans-serif;
+}
